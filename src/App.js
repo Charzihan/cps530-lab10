@@ -18,6 +18,7 @@ function App() {
           fontSize: '1.2rem',
           lineHeight: '1.6'
         }}>
+          <h1>React Web Development Framework - Zihan Guo</h1>
           <h2>How I got the React framework to work:</h2>
           <ol style={{ textAlign: 'left' }}>
             <li>
@@ -49,10 +50,22 @@ function App() {
 "deploy": "gh-pages -d build"</code></pre>
             </li>
             <li>
-              I then initialize the local file with a git repo and deployed the react app using the command in command prompt:
+              I then initialize the local file with a git repo and deployed the react app using this command in command prompt:
               <pre><code>npm run deploy</code></pre>
             </li>
+            <li>
+              In my Git repo 2 branches are created, one master branch for the source code and one gh-pages for distributable version
+              of the React application.
+            </li>
           </ol>
+          <h2>Difficulties I Encountered</h2>
+          <p>
+            I encountered 2 difficulties, one was when I first ran the <pre><code>npm run deploy</code></pre> command, it gave me a missing library
+            error. I solved that error by running the command <pre><code>npm install web-vitals</code></pre> to install the missing library. The second
+            error I encountered was when I tried to  deploy the site again after I made changes to contents. I saved the changes to local 
+            files, but when I ran the <pre><code>npm run deploy</code></pre> command, the website stayed the same. I solved this by first pushing the 
+            changed files to my github repository, then running the <pre><code>npm run deploy</code></pre> command. This way the changes were reflected.
+          </p>
         </div>
       </header>
     </div>
