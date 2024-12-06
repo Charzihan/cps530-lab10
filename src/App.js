@@ -13,7 +13,7 @@ function App() {
         />
         <div style={{ 
           textAlign: 'center', 
-          maxWidth: '800px', 
+          maxWidth: '900px', 
           margin: '20px auto',
           fontSize: '1.2rem',
           lineHeight: '1.6'
@@ -57,6 +57,9 @@ function App() {
               In my Git repo 2 branches are created, one master branch for the source code and one gh-pages branch for the distributable version
               of the React application. Each time I make changes to the source code, I push the changes to the master branch and then run the deploy code:
               <pre><code>npm run deploy</code></pre>
+            </li>
+            <li>
+              For building this webpage, I update the App.js and the App.css files to update the content and styling.
             </li>
           </ol>
           <h2>Difficulties I Encountered</h2>
