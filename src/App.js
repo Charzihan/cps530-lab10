@@ -62,7 +62,7 @@ function App() {
               For building this webpage, I update the App.js and the App.css files to update the content and styling.
             </li>
           </ol>
-          <h2>Difficulties I Encountered</h2>
+          <h2>Difficulties I Encountered:</h2>
           <p>
             I encountered 2 difficulties, one was when I first ran the <code class="inline">npm run deploy</code> command, it gave me a missing library
             error. I solved that error by running the command <code class="inline">npm install web-vitals</code> to install the missing library. The second
