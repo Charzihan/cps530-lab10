@@ -64,11 +64,11 @@ function App() {
           </ol>
           <h2>Difficulties I Encountered</h2>
           <p>
-            I encountered 2 difficulties, one was when I first ran the <code>npm run deploy</code> command, it gave me a missing library
-            error. I solved that error by running the command <code>npm install web-vitals</code> to install the missing library. The second
+            I encountered 2 difficulties, one was when I first ran the <code class="inline">npm run deploy</code> command, it gave me a missing library
+            error. I solved that error by running the command <code class="inline">npm install web-vitals</code> to install the missing library. The second
             error I encountered was when I tried to deploy the site again after I made changes to contents. I saved the changes to local 
-            files, but when I ran the <code>npm run deploy</code> command, the website stayed the same. I solved this by first pushing the 
-            changed files to my github repository, then running the <code>npm run deploy</code> command. This way the changes were reflected.
+            files, but when I ran the <code class="inline">npm run deploy</code> command, the website stayed the same. I solved this by first pushing the 
+            changed files to my github repository, then running the <code class="inline">npm run deploy</code> command. This way the changes were reflected.
           </p>
         </div>
       </header>
